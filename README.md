@@ -61,9 +61,9 @@ class App extends Component {
         this.state = {
             messages : [
                 {body : "Hello", id : 1,
-                timestamp : 1581418856, type : "sent", image_url : ""},
+                timestamp : 1581418856, type : "sent", image_uri : ""},
                 {body : "Hi", id : 2, 
-                timestamp : 1581418856, type : "received", image_url : ""}
+                timestamp : 1581418856, type : "received", image_uri : ""}
             ],
         }
     }
