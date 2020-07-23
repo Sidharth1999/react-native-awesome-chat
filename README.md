@@ -6,8 +6,6 @@ React Native Awesome Chat
 <a href="https://ibb.co/84LNSyT"><img src="https://i.ibb.co/JFwmMY0/chat1.gif" alt="chat1" border="0" width="240" height="450"></a>
 <a href="https://ibb.co/YNy3fS9"><img src="https://i.ibb.co/p1Rx4TD/chat2.gif" alt="chat2" border="0" width="240" height="450></a>
 <a href="https://ibb.co/sK0h25W"><img src="https://i.ibb.co/K2MYXNK/chat3.gif" alt="chat3" border="0" width="240" height="450"></a>
-</div>
-<div style="margin:auto;text-align:center">
 <a href="https://ibb.co/j6RMb7M"><img src="https://i.ibb.co/HFdzBmz/chat4.gif" alt="chat4" border="0" width="240" height="450"></a>
 <a href="https://ibb.co/Btp5Rbv"><img src="https://i.ibb.co/DtJHnhm/chat5.gif" alt="chat5" border="0" width="240" height="450"></a>
 </div>
