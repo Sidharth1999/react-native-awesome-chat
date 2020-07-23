@@ -1,13 +1,9 @@
-<h1 align="center">
-React Native Awesome Chat
-</h1>
+<h1 align="center">React Native Awesome Chat</h1>
 <h3 align="center">An easy to integrate library to create flexible, customizable chat UIs for React Native</h2>
-<div style="text-align:center">
+<div style="margin:auto;text-align:center">
 <a href="https://ibb.co/84LNSyT"><img src="https://i.ibb.co/JFwmMY0/chat1.gif" alt="chat1" border="0" width="240" height="450"></a>
-<a href="https://ibb.co/YNy3fS9"><img src="https://i.ibb.co/p1Rx4TD/chat1.gif" alt="chat2" border="0" width="240" height="450></a>
-<a href="https://ibb.co/sK0h25W"><img src="https://i.ibb.co/K2MYXNK/chat1.gif" alt="chat3" border="0" width="240" height="450"></a>
-<a href="https://ibb.co/j6RMb7M"><img src="https://i.ibb.co/HFdzBmz/chat1.gif" alt="chat4" border="0" width="240" height="450"></a>
-<a href="https://ibb.co/Btp5Rbv"><img src="https://i.ibb.co/DtJHnhm/chat1.gif" alt="chat5" border="0" width="240" height="450"></a>
+<a href="https://ibb.co/YNy3fS9"><img src="https://i.ibb.co/p1Rx4TD/chat2.gif" alt="chat2" border="0" width="240" height="450></a>
+<a href="https://ibb.co/sK0h25W"><img src="https://i.ibb.co/K2MYXNK/chat3.gif" alt="chat3" border="0" width="240" height="450"></a>
 </div>
 
 # Features
@@ -32,7 +28,7 @@ This project uses 2 native libraries : `react-native-image-picker` and `react-na
 
 If these libraries aren't already linked in your project, you need to link them. React Native `0.60+` has the handy auto-linking feature which makes this easier. Just make sure your `Info.plist` has `FontAwesome` as one of its `UIAppFonts` :
 
-```plist
+```
 <key>UIAppFonts</key>
     <array>
         <string>FontAwesome.ttf</string>
