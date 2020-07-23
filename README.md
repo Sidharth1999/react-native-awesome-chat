@@ -1,9 +1,9 @@
 <h1 align="center">React Native Awesome Chat</h1>
 <h3 align="center">An easy to integrate library to create flexible, customizable chat UIs for React Native</h2>
 <div style="margin:auto;text-align:center;width:100%">
-<a href="https://ibb.co/ssCsFht" style="display:inline-block"><img src="https://i.ibb.co/BTGTgmw/chat1.gif" alt="chat1" border="0" width="240" height="450"></a>
-<a href="https://ibb.co/YNy3fS9" style="display:inline-block"><img src="https://i.ibb.co/p1Rx4TD/chat2.gif" alt="chat2" border="0" width="240" height="450"></a>
-<a href="https://ibb.co/sK0h25W" style="display:inline-block"><img src="https://i.ibb.co/K2MYXNK/chat3.gif" alt="chat3" border="0" width="240" height="450"></a>
+<a href="https://ibb.co/ssCsFht" style="display:inline-block"><img style="display:inline-block" src="https://i.ibb.co/BTGTgmw/chat1.gif" alt="chat1" border="0" width="240" height="450"></a>
+<a href="https://ibb.co/YNy3fS9" style="display:inline-block"><img style="display:inline-block" src="https://i.ibb.co/p1Rx4TD/chat2.gif" alt="chat2" border="0" width="240" height="450"></a>
+<a href="https://ibb.co/sK0h25W" style="display:inline-block"><img style="display:inline-block" src="https://i.ibb.co/K2MYXNK/chat3.gif" alt="chat3" border="0" width="240" height="450"></a>
 </div>
 <div style="margin:auto; text-align:center">
 <a href="https://ibb.co/j6RMb7M"><img src="https://i.ibb.co/HFdzBmz/chat4.gif" alt="chat4" border="0" width="240" height="450"></a>
