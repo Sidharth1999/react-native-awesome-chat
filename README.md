@@ -105,8 +105,8 @@ class App extends Component {
 {
     body : "", /* Contents of message */
     id : "", /* Unique ID for the message - AwesomeChat will generate one for you for new messages */
-    timestamp : 0 /* UNIX timestamp -  Can be retrieved from .getTime() on a Javascript Date Object */
-    type : "" /* "sent" or "received" */
+    timestamp : 0, /* UNIX timestamp -  Can be retrieved from .getTime() on a Javascript Date Object */
+    type : "", /* "sent" or "received" */
     image_uri : "" /* image uri if message is an image. Otherwise, can be left as an empty string. 
     AwesomeChat will populate this with the uri
     returned by ImagePicker for newly sent messages
