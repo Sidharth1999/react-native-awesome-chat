@@ -1,0 +1,26 @@
+{
+  "name": "react-native-awesome-chat",
+  "version": "1.0.0",
+  "description": "An easy to integrate library to create flexible, customizable chat UIs for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "chat"
+  ],
+  "author": "Sidharth Ramanan",
+  "license": "MIT",
+  "dependencies": {
+    "js-sha1": "^0.6.0",
+    "react-native-elements": "^2.0.4",
+    "react-native-image-picker": "^2.3.3",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-vector-icons": "^7.0.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.61.0"
+  }
+}
