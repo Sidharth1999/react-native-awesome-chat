@@ -49,7 +49,7 @@ Then, in your project's root directory, run :
 
 That's it - this will make sure the libraries are properly linked. 
 
-If you're using React Native `< 0.60`, then you will need to refer to the docs for [react-native-image-picker](https://github.com/react-native-community/react-native-image-picker) and [react-native-icons](https://github.com/oblador/react-native-vector-icons) to understand how to link the libraries, but it's still a pretty simple process.
+If you're using React Native `< 0.60`, then you will need to refer to the docs for [react-native-image-picker](https://github.com/react-native-community/react-native-image-picker) and [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) to understand how to link the libraries, but it's still a pretty simple process.
 
 # Usage
 ```jsx
