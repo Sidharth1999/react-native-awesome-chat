@@ -6,7 +6,7 @@
 <a href="https://ibb.co/sK0h25W"><img src="https://i.ibb.co/K2MYXNK/chat3.gif" alt="chat3" border="0" width="240" height="450"></a>
 </div>
 <div style="text-align:center">
-<a href="https://ibb.co/j6RMb7M"><img src="https://i.ibb.co/HFdzBmz/chat4.gif" alt="chat4" border="0" width="240" height="450"></a>
+<a href="https://im5.ezgif.com/tmp/ezgif-5-86db4a5a9de7.gif"><img src="https://im5.ezgif.com/tmp/ezgif-5-86db4a5a9de7.gif" alt="chat4" border="0" width="240" height="450"></a>
 <a href="https://ibb.co/sK0h25W"><img src="https://i.ibb.co/K2MYXNK/chat5.gif" alt="chat3" border="0" width="240" height="450"></a>
 </div>
 
