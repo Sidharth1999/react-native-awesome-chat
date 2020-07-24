@@ -30,7 +30,10 @@ OR
 
 This project uses 2 native libraries : `react-native-image-picker` and `react-native-vector-icons`
 
-If these libraries aren't already linked in your project, you need to link them. React Native `0.60+` has the handy auto-linking feature which makes this easier. Just make sure your `Info.plist` has `FontAwesome` as one of its `UIAppFonts` :
+If these libraries aren't already linked in your project, you need to link them. React Native `0.60+` has the handy auto-linking feature which makes this easier. 
+
+### iOS
+Just make sure your `Info.plist` has `FontAwesome` as one of its `UIAppFonts` :
 
 ```
 <key>UIAppFonts</key>
@@ -42,10 +45,18 @@ If these libraries aren't already linked in your project, you need to link them.
 ```
 Then, in your project's root directory, run :
 
-`cd ios`
+`cd ios && pod install`
 
-`pod install`
+### Android 
+Just add this line to `android/app/build.gradle` :
 
+`apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"`
+
+And these permissions to `AndroidManifest.xml` :
+```xml
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
 
 That's it - this will make sure the libraries are properly linked. 
 
