@@ -11,7 +11,8 @@ import {
     TouchableWithoutFeedback,
     SafeAreaView,
     Keyboard,
-    ImageBackground
+    ImageBackground,
+    Platform
 } from "react-native";
 import { Button, Input } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
@@ -19,10 +20,17 @@ import ImagePicker from "react-native-image-picker";
 import MessageComponent from './Message';
 import sha1 from 'js-sha1';
 
-const keyboardVerticalOffsets = {
+const keyboardVerticalOffsetsIOS = {
     "812" : 44,
     "667" : 20,
     "736" : 20
+}
+
+const keyboardVerticalOffsetsANDROID = {
+    "774.8571428571429" : -260,
+    "592" : -230,
+    "683.4285714285714" : -260,
+    "816" : -260
 }
 
 const { width, height } = Dimensions.get("window");
@@ -187,7 +195,12 @@ class AwesomeChat extends Component {
             <KeyboardAvoidingView 
               behavior="padding" 
               enabled 
-              keyboardVerticalOffset={keyboardVerticalOffsets[height] || 20} 
+              keyboardVerticalOffset={
+                Platform.select({
+                    ios: () => keyboardVerticalOffsetsIOS[height] || 20,
+                    android: () => keyboardVerticalOffsetsANDROID[height] || -260
+                })()
+              } 
               style={{...styles.containerStyle, backgroundColor: this.props.backgroundColor || "white"}}>
               <SafeAreaView style={{flex : 1}}>
                  {
